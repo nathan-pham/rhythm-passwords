@@ -10,7 +10,27 @@
         <title>Tap Password</title>
     </head>
     <body>
-        <div id="app"></div>
+        <div id="app">
+            <h1>👇 Tap Password</h1>
+            <p>An experiment with rhythm-based passwords</p>
+            <div class="record record-new">
+                <br />
+                <button>Record new password</button>
+                <button disabled>Stop Recording</button>
+            </div>
+
+            <br />
+            <br />
+            <div class="record record-test">
+                <br />
+                <button>Record Test Password</button>
+                <button disabled>Stop Recording</button>
+            </div>
+
+            <br />
+            <br />
+            <p>Similarity: <span id="score">0</span></p>
+        </div>
         <script type="module" src="/src/ts/app.ts"></script>
     </body>
 </html>
